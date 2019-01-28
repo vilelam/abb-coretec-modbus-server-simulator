@@ -5,7 +5,7 @@ let net = require('net')
 let socket = new net.Socket()
 let options = {
   'host': '127.0.0.1',
-  'port': '8502'
+  'port': '49161'
 }
 let client = new modbus.client.TCP(socket)
 

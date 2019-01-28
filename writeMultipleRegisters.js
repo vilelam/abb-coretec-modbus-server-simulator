@@ -10,7 +10,7 @@ function writeMultipleRegisters() {
   let socket = new net.Socket();
   let options = {
     host: "127.0.0.1",
-    port: "8502"
+    port: "49161"
   };
   let logger = require("./logger/logger");
   let client = new modbus.client.TCP(socket);
