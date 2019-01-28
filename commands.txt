@@ -1,0 +1,19 @@
+docker push vilelam/eam-modbus-data-loader
+
+docker build -t vilelam/eam-modbus-data-loader .
+
+docker run -v /Users/marcosvilela/Desktop/config.json:/usr/src/app/configurations/config.json -p 49160:8888 -d vilelam/eam-modbus-data-loader
+
+kill -quit id
+
+show hidden files/folder on Mac Finder
+Cmd + Shift + . (dot)
+
+git to stop tracking a file
+git rm --cached configurations/config.json
+
+Ignore changes to the config.json file (to avoid publishing any sensitive information)
+git update-index --skip-worktree configurations/config.json
+
+
+
