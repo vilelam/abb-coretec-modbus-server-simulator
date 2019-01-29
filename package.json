@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node webView.js | node server.js 502"
+    "start" : "node server.js 502  | node writeMultipleRegisters.js 502 "
   },
   "author": "Marcos Vilela (vilelam@gmail.com)",
   "license": "ISC",

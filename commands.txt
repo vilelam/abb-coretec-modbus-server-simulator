@@ -1,6 +1,6 @@
-docker push vilelam/eam-modbus-data-loader
+docker push vilelam/abb-coretec-modbus-server-simulator
 
-docker build -t vilelam/eam-modbus-data-loader .
+docker build -t vilelam/abb-coretec-modbus-server-simulator .
 
 docker run -v /Users/marcosvilela/Desktop/config.json:/usr/src/app/configurations/config.json -p 49160:8888 -d vilelam/eam-modbus-data-loader
 
